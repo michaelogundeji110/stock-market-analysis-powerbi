@@ -12,7 +12,7 @@ The dashboard transforms raw financial data into visual insights that help under
 
 ## Dashboard Preview
 
-![Dashboard](images/dashboard_preview.png)
+![Dashboard](dashboard-screenshot.png)
 
 ---
 
