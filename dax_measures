@@ -1,0 +1,30 @@
+# DAX Measures
+
+### Average Close Price
+
+```
+Average Close Price = AVERAGE(Stock[Close])
+```
+
+### Highest Price
+
+```
+Highest Price = MAX(Stock[High])
+```
+
+### Lowest Price
+
+```
+Lowest Price = MIN(Stock[Low])
+```
+
+### Total Volume
+
+```
+Total Volume = SUM(Stock[Volume])
+```
+
+### Volatility
+
+```
+Volatility = AVERAGEX('SHEET1',DIVIDE([Highest Price]-[Lowest Price],[Lowest Price]))
